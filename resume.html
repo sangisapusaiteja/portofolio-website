@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Navigation</title>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+	</head>
+	<body>
+		
+		<nav class="bg-purple-950 shadow-lg">
+			<div class="max-w-6xl mx-auto px-4">
+				<div class="flex justify-between">
+					<div class="flex space-x-7">
+						<div class="text-white font-serif hover:text-black lg:px-5 lg:py-5  lg:text-5xl  sm:text-xl sm:px-2 sm:py-2">
+                            SANGISAPU SAITEJA
+							
+						</div>
+						<!-- Primary Navbar items -->
+						<div class="hidden   lg:flex items-center  space-x-1  ">
+							<a href="landing.html" class="py-4 px-2 text-white hover:border-b-4 hover:bg-purple-400 font-serif font-semibold ">Home</a>
+							<a href="contact.html" class="py-4 px-2 text-white font-semibold  hover:border-b-4 hover:bg-purple-400 transition duration-300 font-serif">contact</a>
+							<a href="media.html" class="py-4 px-2 text-white font-semibold hover:border-b-4 hover:bg-purple-400 transition duration-300 font-serif">media</a>
+							<a href="internships.html" class="py-4 px-2 text-white font-semibold hover:border-b-4 hover:bg-purple-400 transition duration-300 font-serif">internships</a>
+                            <a href="resume.html" class="py-4 px-2 text-white font-semibold hover:border-b-4 hover:bg-purple-400 transition duration-300 font-serif">resume</a>
+						    <a href="mailto:tejasai38409@gmail.com" target="_blank" class="py-4 px-2 text-white hover:border-b-4 hover:bg-purple-400 font-semibold "><img src="pics\gmail.png" alt="" class="h-6 pt-1" ></a></li>
+                            <a href="https://github.com/sangisapusaiteja" target="_blank" class="py-4 px-2 text-white hover:border-b-4 hover:bg-purple-400 font-semibold "><img src="pics\github.png" alt="" class="h-6 pt-1" ></a></li>
+                            <a href="https://www.linkedin.com/in/sangisapu-saiteja-6b986425a" target="_blank"  class="py-4 px-2 text-white hover:border-b-4 hover:bg-purple-400 font-semibold "><img src="pics\linkedin.png" alt="" class="h-6 pt-1" ></a></li>
+						</div>
+					</div>
+					
+					
+
+					<!-- Mobile menu button -->
+					<div class="md:hidden flex items-center">
+						<button class="outline-none mobile-menu-button">
+						<svg class=" w-6 h-6 text-w text-white hover:text-white "
+							x-show="!showMenu"
+							fill="none"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+							<path d="M4 6h16M4 12h16M4 18h16"></path>
+						</svg>
+					</button>
+					</div>
+				</div>
+			</div>
+			<!-- mobile menu -->
+			<div class="hidden mobile-menu">
+				<ul class="">
+					<li class="active"><a href="landing.html" class="block text-sm px-2 py-4 text-white hover:bg-purple-400  font-serif font-semibold">Home</a></li>
+					<li><a href="contact.html" class="block text-sm px-2 py-4  text-white hover:bg-purple-400 transition duration-300 font-serif font-semibold">contact</a></li>
+					<li><a href="media.html" class="block text-sm px-2 py-4 text-white hover:bg-purple-400 transition duration-300 font-serif font-semibold">media</a></li>
+					<li><a href="internships.html" class="block text-sm px-2 py-4 text-white hover:bg-purple-400 transition duration-300 font-serif font-semibold">internships</a></li>
+                    <li><a href="resume.html" class="block text-sm px-2 py-4 text-white hover:bg-purple-400 transition duration-300 font-serif font-semibold">resume</a></li>
+					<a href="mailto:tejasai38409@gmail.com" target="_blank" class="block text-sm px-2 py-4 text-white hover:bg-purple-400 transition duration-300 font-serif font-semibold"><img src="pics\gmail.png" alt="" class="h-6 pt-1" ></a></li>
+                    <a href="https://github.com/sangisapusaiteja" target="_blank" class="block text-sm px-2 py-4 text-white hover:bg-purple-400 transition duration-300 font-serif font-semibold"><img src="pics\github.png" alt="" class="h-6 pt-1" ></a></li>
+                    <a href="https://www.linkedin.com/in/sangisapu-saiteja-6b986425a" target="_blank"  class="block text-sm px-2 py-4 text-white hover:bg-purple-400 transition duration-300 font-serif font-semibold"><img src="pics\linkedin.png" alt="" class="h-6 pt-1" ></a></li>
+				</ul>
+			</div>
+			<script>
+				const btn = document.querySelector("button.mobile-menu-button");
+				const menu = document.querySelector(".mobile-menu");
+
+				btn.addEventListener("click", () => {
+					menu.classList.toggle("hidden");
+				});
+			</script>
+		</nav>
+
+
+
+		<div class="bg-purple-200">
+			<br>
+			<div class="container mx-auto p-4">
+				
+				<div class="container mx-auto p-4 flex flex-col md:flex-row  items-center ">
+					<!-- Image -->
+					  
+					<img src="pics\Screenshot 2023-10-23 165638.png" alt="Image" class=" block w-full sm:w-1/2 md:w-1/3  xl:w-2/6  lg:w-2/6  rounded-full shadow-lg hover:scale-105 hover:border-4 hover:border-purple-950 mx-2 ">
+					<br>
+					<!-- Paragraph -->
+					<p class="ml-4 text-2xl font-serif hover:text-white">
+						<a href="pics\finaltej.pdf"><a href="pics\finaltej.pdf" class="ml-4 text-2xl font-serif hover:text-white" download><u>see my latest resume click here.....</u></a></p> 
+				  </div>
+			<br>
+			</div>
+
+			<div class="container mx-auto p-4">
+				
+				<div class="container mx-auto p-4 flex flex-col md:flex-row  items-center">
+					<!-- Image -->
+					<p class="align-middle  text-center text-3xl font-serif  bg-purple-500 px-5 py-3 rounded-lg shadow-current lg:w-2/6    ">Education:</p>
+					<br>
+					<br>
+					<!-- Paragraph -->
+					<ul class="text-lg md:w-1/2 bg-purple-300 px-4 py-4 rounded-lg shadow-2xl shadow-curren"> 
+					  <li>Sagi Rama Krishnam Raju Engineering College (Autonomous) in
+						Bhimavaram, Bachelor of Technologies in <b>Mechanical Engineering</b> 
+					<li>2020-2024</li>	
+					<li>CGPA 8.7(up to 3-2).</li>
+					<hr> 
+					 <li>Sri Aditya Junior College, Kakinada
+						Board of Intermediate Education, MPC
+						<li>2018-2020</li>
+						<li>CGPA 9.8</li>
+						<hr>
+					  <li>A.P.S.P (EM) High school, Kakinada
+						Board of Secondary Education
+						<li>2017-2018</li>
+						<li>CGPA 9.5</li>
+					  </ul>
+				  </div>
+				  
+			  
+				
+			  </div>
+
+
+			  <div class="container mx-auto p-4">
+				
+				<div class="container mx-auto p-4 flex flex-col md:flex-row  items-center">
+					<!-- Image -->
+					<p class="align-middle  text-center text-3xl font-serif  bg-purple-500 px-5 py-3 rounded-lg shadow-current lg:w-2/6    ">INTERNSHIPS:</p>
+					<br>
+					<!-- Paragraph -->
+					<ul class="text-lg md:w-1/2 bg-purple-300 px-4 py-4 rounded-lg shadow-2xl shadow-curren">
+					<li><b>TITLE: BUS TICKET RESERVATION SYSYTEM USING javafulstack:</b>  
+						<LI></LI>Description: Developed a website using java full stack using
+						spring boot, React js, MySQL
+					</li>
+					<hr>
+					<li><B>TITLE: TRAVEL WEBSITE USING HTML &CSS:</B>   
+						<LI></LI>Description: Created a static travel website by using Html and
+						CSS 
+					</li>
+					<hr>
+					<li> <B>TITLE: DESIGN OF PRESURE VESSEL USING CATIAV5:</B>   
+						<LI></LI>Description: Using CATIA v5 Designed a pressure vessel using
+						standard specifications and requirements.
+					</li>
+					<hr>
+					<li> <b>TITLE: DESIGN OF HEAT EXCHANGER USING AutoCAD :</b>  
+						<li></li>Description: Using AutoCAD Designed a heat exchanger using
+						standard specifications and requirements.
+					</li>
+					<hr>
+					<li> <b>  TITLE: DESIGN OF BLOWER PUMP ASSEMBLY using CATIAV5: </b>
+						<li></li>Description: Using CATIA v5 Designed a A blower pump assembly
+						using standard specifications and requirements.
+					</li>
+				</ul>
+				  </div>
+				  
+			  
+				
+			  </div>
+
+
+			  <div class="container mx-auto p-4">
+				
+				<div class="container mx-auto p-4 flex flex-col md:flex-row  items-center">
+					<!-- Image -->
+					<p class="align-middle  text-center text-3xl font-serif  bg-purple-500 px-5 py-3 rounded-lg shadow-current lg:w-2/6    ">TECHNICAL SKILLS:</p>
+					<br>
+					<!-- Paragraph -->
+					<ul class="text-lg md:w-1/2 bg-purple-300 px-4 py-4 rounded-lg shadow-2xl shadow-curren">
+					 <li> <b>Programming Languages:</b></li> 
+                      C, C++, Python, Basics in OOPs
+					  <hr>
+                    <li> <b>Front-end languages:</b></b></li>
+                       HTML, CSS, JavaScript
+					   <hr>
+                    <li> <b>Developer tools:</b></li>
+                       visual studio code
+					   <hr>
+                     <li> <b></b>Data base:</li>
+                      MySQL
+					  <hr>
+                    <li> <b>Designing Tools:</b></li>
+                       Auto CAD, CATIA V5, Basics </ul>
+				  </div>
+				  
+			  
+				
+			  </div>
+
+		</div>
+
+
+
+		
+		
+	</div>
+		<footer><div class="text-center lg:text-sm  sm:text-sm bg-purple-950  text-white font-serif">
+			<p>sangisapu saiteja</p>
+			<p><a href="mailto:tejasai38409@gmail.com" target="_blank">tejasai38409@gmail.com</a></p>
+			<p><a href="https://github.com/sangisapusaiteja" target="_blank">sangisapusaiteja.git</a></p>
+			<p><a href="https://www.linkedin.com/in/sangisapu-saiteja-6b986425a" target="_blank">sangisapusaiteja.linkedin</a></p>
+			
+		  </div></footer>
+	</body>
+</html>
