@@ -2,11 +2,11 @@
 I have created a portfolio website using HTML and Tailwind CSS
 HTML (Hypertext Markup Language) is the standard markup language for creating web pages, while Tailwind CSS is a utility-first CSS framework that simplifies the styling process.
 
-In your portfolio website, you likely used HTML to structure the content of your pages, defining elements like headings, paragraphs, lists, and links. This provides a clear and organized presentation of your information.
+In this portfolio website, you likely used HTML to structure the content of your pages, defining elements like headings, paragraphs, lists, and links. This provides a clear and organized presentation of your information.
 
 Tailwind CSS, on the other hand, offers a utility-first approach to styling. Instead of writing custom CSS, you use pre-defined utility classes to apply styles directly to your HTML elements. This can speed up the development process and maintain a consistent design across your website.
 
-Your portfolio website may include sections such as:
+this portfolio website may include sections such as:
 
 1. **Home/Introduction:** A brief overview of who you are, your background, and what visitors can expect to find on your site.
 
